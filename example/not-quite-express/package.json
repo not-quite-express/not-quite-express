@@ -1,0 +1,16 @@
+{
+  "name": "not-quite-express-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild src/index.js --bundle --minify --platform=node --format=cjs --outfile=dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "thatretrodev",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.14.47",
+    "not-quite-express": "file:../../packages/not-quite-express"
+  }
+}
