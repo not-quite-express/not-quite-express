@@ -40,6 +40,15 @@ class Express {
 				return res;
 			};
 
+			res.set = (a, b) => {
+				if (typeof a == "object") {
+					_headers = Object.assign(_headers, a);
+					return;
+				}
+
+				_headers[a] = b;
+			}
+
 			res.send = (data) => {
 				if (typeof data == "object") {
 					_headers["Content-Type"] = "application/json";
