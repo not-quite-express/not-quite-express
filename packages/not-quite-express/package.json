@@ -1,6 +1,6 @@
 {
   "name": "not-quite-express",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A lightweight drop-in replacement for express.",
   "main": "index.js",
   "scripts": {
