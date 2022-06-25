@@ -1,6 +1,6 @@
 {
   "name": "not-quite-express",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A lightweight drop-in replacement for express.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thatretrodev/not-quite-express.git"
+    "url": "git+https://github.com/not-quite-express/not-quite-express.git"
   },
   "keywords": [
     "express",
@@ -18,7 +18,7 @@
   "author": "thatretrodev",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/thatretrodev/not-quite-express/issues"
+    "url": "https://github.com/not-quite-express/not-quite-express/issues"
   },
-  "homepage": "https://github.com/thatretrodev/not-quite-express#readme"
+  "homepage": "https://github.com/not-quite-express/not-quite-express#readme"
 }
